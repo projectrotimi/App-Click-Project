@@ -49,6 +49,7 @@
 }
 
 /* Responsive */
+
 @media screen and (max-width: 768px) {
   .nav-menu {
     position: fixed;
@@ -72,6 +73,15 @@
   .nav-icon {
     display: block;
   }
+}
+
+@media screen and (max-width: 500px) {
+    .conc{
+        display: none;
+    }
+    .nav-logo {
+        font-size: 1.2rem;
+    }
 }
 
 /* Smooth scrolling offset fix */

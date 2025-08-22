@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="nav-container">
-        <a href="#hero" className="nav-logo">VIZANEST CONCIERGE</a>
+        <a href="#hero" className="nav-logo">VIZANEST <span className="conc">CONCIERGE</span></a>
         <div className={`nav-menu ${isOpen ? "active" : ""}`}>
           <a href="#hero" onClick={toggleMenu}>Home</a>
           <a href="#tours" onClick={toggleMenu}>Tours</a>

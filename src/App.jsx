@@ -1,5 +1,6 @@
 import React from "react";
 import Hero from "./Components/Hero";
+import Navbar from "./Components/Navbar";
 import Tours from "./Components/Tours";
 import Contact from "./Components/Contact";
 import Footer from "./Components/Footer";
@@ -7,6 +8,7 @@ import Footer from "./Components/Footer";
 function App() {
   return (
     <div>
+      <Navbar />
       <Hero />
       <Tours />
       <Contact />

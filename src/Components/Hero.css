@@ -2,12 +2,18 @@
   background-image: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1470&q=80');
   background-size: cover;
   background-position: center;
-  height: 100vh;
+  height: 90vh;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
   color: white;
+}
+.logo {
+  width: 150px;
+  height: auto;
+  aspect-ratio: auto 1 / 1;
+  /* margin-bottom: 1rem; */
 }
 
 .hero-content h1 {
